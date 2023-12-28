@@ -28,3 +28,5 @@ repos:
     rev: v0.1.22
     hooks:
       - id: helmlint
+
+  # todo: helm-docs
