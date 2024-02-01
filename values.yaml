@@ -3,18 +3,23 @@ nameOverride: tenant
 # -- string to fully override `"tenant.fullname"`
 fullnameOverride: ""
 
-databases:
-  mongodb:
-  # todo
-  mysql:
-  # todo
-  redis:
-  # todo
-  rook:
-  # todo
+# todo: mongodb, mysql, redis, rook database clustering
+#databases:
+#  mongodb:
+#    - .
+#  mysql:
+#    - .
+#  redis:
+#    - .
+#  rook:
+#    - .
 
-events:
-  brokers:
-  # todo
-  triggers:
-  # todo
+# todo: knative broker + triggers
+#events:
+#  brokers:
+#    - .
+#  triggers:
+#    - .
+
+# todo: io-worker, cpu-worker, gpu-worker services
+# ...
